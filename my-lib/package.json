@@ -1,0 +1,13 @@
+{
+  "name": "@lukana/alerty",
+  "version": "1.0.0-alpha.0",
+  "author": "lukasz piernikarczyk <biuro@lukana.pl>",
+  "license": "MIT",
+  "private": true,
+  "peerDependencies": {
+    "@angular/core": "^4.1.2",
+    "@angular/common": "^4.1.2",
+    "@ng-bootstrap/ng-bootstrap": "^1.0.0-alpha.29",
+    "bootstrap": "^4.0.0-alpha.6"
+  }
+}
