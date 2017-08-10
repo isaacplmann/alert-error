@@ -4,6 +4,10 @@
   "dest": "dist/my-lib",
   "workingDirectory": ".ng_build",
   "lib": {
-    "entryFile": "src/public_api.ts"
+    "entryFile": "src/public_api.ts",
+    "externals": {
+      "@ng-bootstrap/ng-bootstrap": "ngb",
+      "@ng-bootstrap/ng-bootstrap/index": "ngb"
+    }
   }
 }
